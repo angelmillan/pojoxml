@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<direccion>
+    <tipoVia>Calle</tipoVia>
+    <nombreVia>Luna</nombreVia>
+    <numero>13</numero>
+    <planta>2ª</planta>
+    <puerta>b</puerta>
+    <escalera>1</escalera>
+    <portal>2</portal>
+    <ciudad>Jaén</ciudad>
+    <cp>23002</cp>
+    <pais>España</pais>
+    <provincia>Jaén</provincia>
+</direccion>
