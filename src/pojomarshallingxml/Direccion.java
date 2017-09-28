@@ -13,8 +13,9 @@ import javax.xml.bind.annotation.XmlRootElement;
  *
  * @author matinal
  */
-@XmlRootElement
+@XmlRootElement (name = "direccion")
 @XmlAccessorType (XmlAccessType.FIELD)
+        
 public class Direccion {
     private String tipoVia;
     private String nombreVia;
@@ -132,6 +133,5 @@ public class Direccion {
     public void setProvincia(String provincia) {
         this.provincia = provincia;
     }
-           
-}
-
+}         
+ 
