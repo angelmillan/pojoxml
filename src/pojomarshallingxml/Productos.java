@@ -35,6 +35,11 @@ public class Productos {
     public void setProductos(ArrayList<Producto> productos) {
         this.productos = productos;
     }
+
+    @Override
+    public String toString() {
+        return "Productos{" + "productos=" + productos + '}';
+    }
     
     
     
