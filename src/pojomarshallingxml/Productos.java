@@ -20,17 +20,15 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType (XmlAccessType.FIELD)
 public class Productos {
     @XmlElement(name = "productos")
-    public List<Producto> productos;
+    public ArrayList<Producto> productos;
 
     public Productos() {
         this.productos = new ArrayList<>();       
     }
 
-    Productos(List productos1) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+  
 
-    public List<Producto> getProductos() {
+    public ArrayList<Producto> getProductos() {
         return productos;
     }
 

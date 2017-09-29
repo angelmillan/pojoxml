@@ -15,12 +15,12 @@ import java.util.List;
 public class Factura {
     private Cliente cliente;
     private Direccion direccion;
-    private List<Producto> productos;
+    private Productos productos;
 
     public Factura() {
     }
 
-    public Factura(Cliente cliente, Direccion direccion, List<Producto> productos) {
+    public Factura(Cliente cliente, Direccion direccion, Productos productos) {
         this.cliente = cliente;
         this.direccion = direccion;
         this.productos = productos;
@@ -42,11 +42,11 @@ public class Factura {
         this.direccion = direccion;
     }
 
-    public List<Producto> getProductos() {
+    public Productos getProductos() {
         return productos;
     }
 
-    public void setProductos(List<Producto> productos) {
+    public void setProductos(Productos productos) {
         this.productos = productos;
     }
     
